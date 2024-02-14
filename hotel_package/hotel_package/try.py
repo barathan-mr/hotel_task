@@ -42,7 +42,7 @@ class Hotel(Node):
         print("Entering waiting function...")
 
         # Wait for user input or until 10 seconds have passed
-        print("You have 10 seconds to enter 'confirm'...")
+        print("You have 20 seconds to enter 'confirm'...")
         i, _, _ = select.select([sys.stdin], [], [], 20)
 
         if i:
