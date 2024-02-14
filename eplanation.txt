@@ -1,0 +1,4 @@
+after launching the task first the robot get the input of the table no and food
+then the robot navigate to the kitchen and wait for the confirmation if the confirmation was given then robt navigate to table and return home if the coonfirmatin was not given the robot return to the hme position
+after going to the table it will wait for a confirmation if the confirmation not given the robot went to the kitchen and to the home position if the confirmation given the robot went to home position
+if there are multiple tables the again the robot returns the same process in this step if the table2 was cancelled it skips the table and went to other tables and it got to the kitchen before going to home position 
